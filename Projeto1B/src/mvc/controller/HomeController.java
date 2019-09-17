@@ -12,8 +12,17 @@ public class HomeController {
 	
 	
 	@RequestMapping("/home")
-	public String home() {
-		return"home";
+	public String home(HttpSession session, String filter) {
+		Integer id = (Integer) session.getAttribute("id");
+		if (id != null) {
+			if(filter != null) {
+				// request.setAttribute("filter", filter);
+				System.out.print("ARRUMAR FILTRO");
+			}
+			return "home";
+			
+		} else {
+			return "redirect:login";
+			}
 	}	
-
 }

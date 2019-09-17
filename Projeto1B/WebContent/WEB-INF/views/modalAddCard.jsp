@@ -85,13 +85,7 @@ display: none
 						   padding: 1rem;
 						   left: 75%;
 						   margin-left: -37.5%' id=<%=dialogId%>>
-  		<form action="/Projeto1/card" method="post">
-  		  			<input class='hiddenInput'
-				type="hidden" 
-				max-length="100" 
-				name="type"
-				value='PUT'
-			>
+  		<form action="/Projeto1B/POST_CARD" method="post">
   			<h3 style='margin: 0;
 				   font-weight: normal;
 				   font-family: Avenir'>Título:</h3>

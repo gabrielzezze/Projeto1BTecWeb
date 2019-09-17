@@ -68,7 +68,7 @@ input:focus, button:focus, select:focus {
 				<button class='botao' style='background-color: #02B6BC' type="submit">
 					<h3 class='textButton'>Login</h3>
 				</button>
-				<a class='botao' style='background-color: #FF4F19; text-decoration: none' href="/Projeto1/register">
+				<a class='botao' style='background-color: #FF4F19; text-decoration: none' href="/Projeto1B/register">
 					<h3 class='textButton'>Cadastre-se</h3>
 				</a>
 			</div>	

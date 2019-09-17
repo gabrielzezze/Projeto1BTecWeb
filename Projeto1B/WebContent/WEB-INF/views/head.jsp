@@ -66,7 +66,7 @@ Integer id = (Integer) sessao.getAttribute("id");
 	<jsp:include page="modalAddCard.jsp" >
 		<jsp:param name="head" value="head" />
 	</jsp:include>
-	<a href='Projeto1' style= 'color: white;
+	<a href='/Projeto1B/logout' style= 'color: white;
 						   align-self: center;
 						   padding-right: 1rem;
 						   text-decoration: none;

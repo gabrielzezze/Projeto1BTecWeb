@@ -53,7 +53,7 @@ display: none
 					   font-family: Avenir'>Título:</h3>
 				</div>
 				<div style='display: flex; flex-direction: row'>
-				<form action="${pageContext.request.contextPath}/card" method="post">
+				<form action="${pageContext.request.contextPath}/DELETE_CARD" method="post">
 				<input class='hiddenInput'
 				type="hidden" 
 				max-length="100" 
@@ -199,8 +199,8 @@ function onDragEnd(e){
 
 	document.getElementById(statusToBe).appendChild(e.target)
 	document.getElementById(statusToBe).appendChild(document.getElementById("new-card-text-"+statusToBe))
- 	$.post("/Projeto1/card",{cardId: id, statusToBe: statusToBe, type: "ALTER-STATUS"})
- 	window.location.href="/Projeto1/home";
+ 	$.post("/Projeto1B/ALTER_STATUS",{cardId: id, statusToBe: statusToBe, type: "ALTER-STATUS"})
+ 	window.location.href="/Projeto1B/home";
 }
 
 

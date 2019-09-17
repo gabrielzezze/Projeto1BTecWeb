@@ -44,7 +44,7 @@ input:focus, button:focus, select:focus {
 <jsp:include page="head.jsp" />
 <div style='display: flex; align-items: center; justify-content: center'>
 	<div style='width: 30%; padding: 2rem 0 0 0'>
-		<form action="/Projeto1/register" method="post">
+		<form action="/Projeto1B/POST_USER" method="post">
 		  	<h3 style='margin: 0;
   				   color: white;
 				   font-weight: normal;
@@ -74,7 +74,7 @@ input:focus, button:focus, select:focus {
 				<button class='botao' style='background-color: #02B6BC' type="submit">
 					<h3 class='textButton'>Cadastrar</h3>
 				</button>
-				<a class='botao' style='background-color: #FF4F19; text-decoration: none' href="/Projeto1/login">
+				<a class='botao' style='background-color: #FF4F19; text-decoration: none' href="/Projeto1B/login">
 					<h3 class='textButton'>Já tenho cadastro</h3>
 				</a>
 			</div>	

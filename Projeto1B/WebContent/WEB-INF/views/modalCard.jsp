@@ -85,13 +85,7 @@ display: none
 						   padding: 1rem;
 						   left: 75%;
 						   margin-left: -37.5%' id=<%=dialogId%>>
-  		<form action="/Projeto1/card" method="post">
-  			<input class='hiddenInput'
-				type="hidden" 
-				max-length="100" 
-				name="type"
-				value='PATCH'
-			>
+  		<form action="/Projeto1B/PATCH_CARD" method="post">
 			<input class='hiddenInput'
 				type="hidden" 
 				max-length="100" 

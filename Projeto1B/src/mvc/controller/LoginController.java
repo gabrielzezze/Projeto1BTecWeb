@@ -26,9 +26,13 @@ public class LoginController {
 		}
 		
 		return "login";
-		
-		
+			
 	}
 	
+	@RequestMapping("logout")
+	public String logout(HttpSession session) {
+		session.setAttribute("id", null);
+		return"redirect:login";
+	}
 
 }
