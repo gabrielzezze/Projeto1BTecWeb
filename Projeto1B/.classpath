@@ -23,12 +23,8 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Projeto1/WebContent/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar"/>
-	<classpathentry kind="lib" path="/Projeto1/WebContent/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
-	<classpathentry kind="lib" path="/Projeto1/WebContent/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar"/>
-	<classpathentry kind="lib" path="/Projeto1/WebContent/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
-	<classpathentry kind="lib" path="/Projeto1/WebContent/WEB-INF/lib/mysql-connector-java-8.0.17.jar"/>
-	<classpathentry kind="lib" path="/Users/Pedro/Desktop/INSPER_/4S/apache-maven-3.6.2/lib/maven-core-3.6.2.jar"/>
-	<classpathentry kind="lib" path="/Users/Pedro/Desktop/INSPER_/4S/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar"/>
+	<classpathentry kind="lib" path="/Users/gabrielzezze/Desktop/Tecnologias Web/ApacheTomcat/apache-tomcat-9.0.22/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/gabrielzezze/Desktop/Tecnologias Web/apache-maven-3.6.2/lib/maven-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="/Users/gabrielzezze/Desktop/Tecnologias Web/MySQL/mysql-connector-java-8.0.17/mysql-connector-java-8.0.17.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

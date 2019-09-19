@@ -16,6 +16,9 @@
   margin-bottom: 1rem
 }
 
+
+
+
 input:focus, button:focus, select:focus {
 	outline: 0 solid #000;
 }

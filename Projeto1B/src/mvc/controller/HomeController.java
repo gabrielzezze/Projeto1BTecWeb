@@ -14,6 +14,7 @@ public class HomeController {
 	@RequestMapping("/home")
 	public String home(HttpSession session, String filter) {
 		Integer id = (Integer) session.getAttribute("id");
+		System.out.println("Home");
 		if (id != null) {
 			if(filter != null) {
 				// request.setAttribute("filter", filter);

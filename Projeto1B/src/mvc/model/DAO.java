@@ -14,7 +14,11 @@ public class DAO {
 	//Constructor
 	public DAO() throws SQLException, ClassNotFoundException {
 		Class.forName("com.mysql.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost/TecWebProjeto1","root","senha123");
+		String url=System.getenv("mysql_url");
+		String user=System.getenv("mysql_user");
+		String password=System.getenv("mysql_password");
+
+		con = DriverManager.getConnection(url,user,password);
 	}
 	
 	public User createUser(User user) throws SQLException {
