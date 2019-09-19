@@ -18,7 +18,7 @@ public class DAO {
 		String user=System.getenv("mysql_user");
 		String password=System.getenv("mysql_password");
 
-		con = DriverManager.getConnection(url,user,password);
+		con = DriverManager.getConnection("jdbc:mysql:"+url,user,password);
 	}
 	
 	public User createUser(User user) throws SQLException {
