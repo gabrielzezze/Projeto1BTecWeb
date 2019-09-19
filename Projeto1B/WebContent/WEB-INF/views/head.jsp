@@ -38,7 +38,7 @@ Integer id = (Integer) sessao.getAttribute("id");
 	  		align-items: center;
   			justify-content: space-between'>	
 	<%if(id != null){ %>
-		<form action='/Projeto1/home' method='get'>
+		<form action='/Projeto1B/home' method='get'>
 		<div style='display: flex; flex-direction: row'>
 		<input type='text' name='filter' class='filter' placeholder='Procurar...' />
 		<button style='	border: none;
